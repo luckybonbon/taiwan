@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #c4c4c4;
+    width: 100%;
+    padding: 1rem;
+}
+nav{
+    background-color: #312f2f;
+}
+nav ul{
+    display: flex;
+    padding-left: 1rem;
+    list-style-type:none;
+}
+nav ul li{
+    /* padding: 0.5rem 0.75rem; */
+    display: flex;
+}
+nav ul li a{
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+/* 項目編號 */
+.s1 ul{
+    margin-top: 1rem;
+}
+nav ul li a:hover{
+    color: lightyellow;
+    background-color: gold;
+}
+header h1{
+    font-size: 2.5rem;
+}
+header h1 i{
+    font-size: 3rem;
+}
+
+section{
+    padding: 1rem;
+}
+section.s2{
+    display: flex;
+}
+section.s2 p{
+    margin-left: 3rem;
+}
+img{
+    width: 300px;
+    margin: 1rem;
+}
+h5{
+    font-weight: bolder;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #000;
+}
